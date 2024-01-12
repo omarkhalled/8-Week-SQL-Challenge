@@ -37,3 +37,51 @@ from customer_orders
 select *
 from #tmp_customer_orders
 `````
+
+Looking at the `runner_orders` table below, we can see that there are
+- In `pickup_time` column, remove nulls and replace with blank space ' '.
+- In `distance` column, remove "km" and nulls and replace with blank space ' '.
+- In `duration` column, remove "minutes", "minute" and nulls and replace with blank space ' '.
+- In `cancellation` column, remove NULL and null and and replace with blank space ' '.
+![image](https://github.com/omarkhalled/8-Week-SQL-Challenge/assets/90888020/2926b53f-c14d-40a0-b657-983799fb7462)
+
+````sql
+
+select order_id , runner_id ,
+( case
+  when pickup_time like 'null' then ''
+  else pickup_time
+  end
+) as pickup_time ,
+(
+  case
+  when distance like 'null' then ''
+  when distance like '%km'then  REPLACE(distance,'km','')
+  when distance like '%km'then  REPLACE(distance,' km','')
+  else distance
+  end
+
+) as distance ,
+(
+  case
+  when duration like 'null' then ''
+  when duration like '%minutes'then  REPLACE(duration,'minutes','')
+  when duration like '%mins'then  REPLACE(duration,'mins','')
+  when duration like '%mins'then  REPLACE(duration,' mins','')
+  when duration like '%minutes'then  REPLACE(duration,' minutes','')
+  when duration like '%minute'then  REPLACE(duration,' minute','')
+  else duration
+  end
+) as duration,
+(
+  case
+  when cancellation like 'null' or cancellation is null then ''
+  else cancellation
+  end
+) as cancellation
+into #tmp_runner_orders
+from runner_orders
+`````
+
+
+
