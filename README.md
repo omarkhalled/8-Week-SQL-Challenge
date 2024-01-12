@@ -6,4 +6,4 @@ It showcases my ability to tackle various SQL challenges and demonstrates my pro
 
 Please find the solution links for the case studies below. Simply click on the links to access each solution.
 - [Case Study #1: Danny's Diner](https://github.com/omarkhalled/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%3A%20Danny's%20Diner/README.md)
-- [Case Study #2: Pizza Runner]()
+- [Case Study #2: Pizza Runner](https://github.com/omarkhalled/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%3A%20Pizza%20Runner/README.md)
