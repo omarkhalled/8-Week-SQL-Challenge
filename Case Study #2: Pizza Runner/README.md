@@ -19,3 +19,9 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 ![image](https://github.com/omarkhalled/8-Week-SQL-Challenge/assets/90888020/46c510bd-f676-4152-a2ca-d7b0a3df7462)
 
 ## 🧼 Data Cleaning & Transformation
+
+Looking at the `customer_orders` table below, we can see that there are
+- In the `exclusions` column, there are missing/ blank spaces ' ' and null values. 
+- In the `extras` column, there are missing/ blank spaces ' ' and null values.
+![image](https://github.com/omarkhalled/8-Week-SQL-Challenge/assets/90888020/8b432b53-4756-4ed1-a968-b2c716fcd304)
+
