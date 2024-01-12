@@ -16,4 +16,5 @@ Danny is expanding his new Pizza Empire and at the same time, he wants to Uberiz
 Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers. 
 
 ## Entity Relationship Diagram
-![image](https://github.com/omarkhalled/8-Week-SQL-Challenge/assets/90888020/92cd5aca-e337-4ebe-a50b-82a34b20befa)
+![image](https://github.com/omarkhalled/8-Week-SQL-Challenge/assets/90888020/46c510bd-f676-4152-a2ca-d7b0a3df7462)
+
