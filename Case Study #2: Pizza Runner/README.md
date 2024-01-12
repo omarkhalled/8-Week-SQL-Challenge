@@ -25,3 +25,14 @@ Looking at the `customer_orders` table below, we can see that there are
 - In the `extras` column, there are missing/ blank spaces ' ' and null values.
 ![image](https://github.com/omarkhalled/8-Week-SQL-Challenge/assets/90888020/8b432b53-4756-4ed1-a968-b2c716fcd304)
 
+
+Select order_id , customer_id , pizza_id ,
+(case when exclusions is NULL or exclusions like 'null' then ' '
+ else exclusions end )as exclusions,
+ (case when extras is NULL or extras like 'null' then ' '
+ else extras end )as extras,
+ order_time
+ INTO #tmp_customer_orders
+from customer_orders
+select *
+from #tmp_customer_orders
