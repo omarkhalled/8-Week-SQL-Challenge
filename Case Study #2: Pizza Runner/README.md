@@ -18,3 +18,4 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 ## Entity Relationship Diagram
 ![image](https://github.com/omarkhalled/8-Week-SQL-Challenge/assets/90888020/46c510bd-f676-4152-a2ca-d7b0a3df7462)
 
+## 🧼 Data Cleaning & Transformation
