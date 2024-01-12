@@ -96,3 +96,14 @@ alter column duration int
 
 ## A. Pizza Metrics
 
+1. How many pizzas were ordered?
+````sql
+select count(*) as Pizzas_num
+from customer_orders
+`````
+
+2. How many unique customer orders were made?
+````sql
+select count(distinct customer_orders.order_id) as Orders_num
+from customer_orders
+`````
