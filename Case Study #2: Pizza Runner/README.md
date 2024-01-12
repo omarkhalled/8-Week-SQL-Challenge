@@ -26,6 +26,7 @@ Looking at the `customer_orders` table below, we can see that there are
 ![image](https://github.com/omarkhalled/8-Week-SQL-Challenge/assets/90888020/8b432b53-4756-4ed1-a968-b2c716fcd304)
 
 
+,,,,sql
 Select order_id , customer_id , pizza_id ,
 (case when exclusions is NULL or exclusions like 'null' then ' '
  else exclusions end )as exclusions,
@@ -36,3 +37,4 @@ Select order_id , customer_id , pizza_id ,
 from customer_orders
 select *
 from #tmp_customer_orders
+,,,,,
