@@ -1,5 +1,3 @@
-![image](https://github.com/omarkhalled/8-Week-SQL-Challenge/assets/90888020/4cd8f152-d005-40ef-93b1-1f6cd96ff8dd)
-
 ## 📚 Table of Contents
 - [Business Task](#business-task)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
@@ -96,5 +94,5 @@ alter column duration int
 
 `````
 
-
+##A. Pizza Metrics
 
