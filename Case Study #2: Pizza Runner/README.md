@@ -83,5 +83,18 @@ into #tmp_runner_orders
 from runner_orders
 `````
 
+Then we will alter columns to correct data type
+
+````sql
+
+alter table #tmp_runner_orders
+alter column pickup_time datetime
+alter table #tmp_runner_orders
+alter column distance float
+alter table #tmp_runner_orders
+alter column duration int
+
+`````
+
 
 
